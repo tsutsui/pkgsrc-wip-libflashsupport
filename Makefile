@@ -10,8 +10,6 @@ HOMEPAGE=	http://developer.opensound.com/
 COMMENT=	Additional Interface Support for Linux Flash Player
 LICENSE=	adobe-flashsupport-license
 
-CONFLICTS=	libflashsupport-pulse-[0-9]* libflashsupport10-[0-9]*
-
 # On NetBSD, requires sufficiently new compat_linux.
 NOT_FOR_PLATFORM=	NetBSD-[0-4]*-* NetBSD-5.[0-9].*-* Linux-*-*
 
